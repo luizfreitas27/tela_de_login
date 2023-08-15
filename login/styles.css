@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 14, 186, 0.648);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.container {
+    max-width: 1220px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+fieldset {
+    width: 30vw;
+    height: 50vh;
+    background-color:rgba(23, 14, 186, 0.648);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+form {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 70px;
+    color: white;
+}
+
+.email label{
+    font-size: 18px;
+    
+}
+
+.email input {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-left: 24px;
+    
+}
+
+.senha label {
+    font-size: 18px;
+    margin-right: 16px;
+
+}
+
+.senha input {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-weight: 500;
+    
+
+}
+
+form button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    color: rgba(23, 14, 186, 0.648);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+form button:hover {
+    color: white;
+    background-color: #7B68EE;
+    transition: 0.5s;
+}
+
